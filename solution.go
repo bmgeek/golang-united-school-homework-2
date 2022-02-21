@@ -12,6 +12,12 @@ import (
 	"math"
 )
 
+var (
+	SidesSquare   = 4
+	SidesTriangle = 3
+	SidesCircle   = 0
+)
+
 func CalcSquare(sideLen float64, sidesNum int) float64 {
 	switch sidesNum {
 	case 3:
